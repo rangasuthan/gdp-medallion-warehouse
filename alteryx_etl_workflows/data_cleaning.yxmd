@@ -1,0 +1,958 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2025.1" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="162" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>5</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>World Bank GDP dataset.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Country Name" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="Country Code" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="Indicator Name" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="Indicator Code" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1960" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1961" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1962" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1963" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1964" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1965" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1966" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1967" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1968" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1969" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1970" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1971" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1972" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1973" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1974" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1975" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1976" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1977" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1978" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1979" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1980" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1981" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1982" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1983" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1984" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1985" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1986" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1987" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1988" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1989" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1990" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1991" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1992" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1993" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1994" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1995" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1996" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1997" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1998" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="1999" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2000" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2001" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2002" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2003" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2004" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2005" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2006" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2007" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2008" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2009" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2010" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2011" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2012" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2013" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2014" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2015" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2016" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2017" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2018" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2019" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2020" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2021" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2022" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2023" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="2024" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+            <Field name="Field_70" size="254" source="File: C:\Users\91917\Downloads\Dataset\World Bank GDP dataset.csv" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="90" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IMF macroeconomic indicators.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="WEO Country Code" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="ISO" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="WEO Subject Code" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="Country" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="Subject Descriptor" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="Subject Notes" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="Units" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="Scale" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="Country/Series-specific Notes" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="1980" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="1981" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="1982" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="1983" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="1984" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="1985" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="1986" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="1987" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="1988" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="1989" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="1990" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="1991" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="1992" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="1993" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="1994" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="1995" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="1996" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="1997" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="1998" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="1999" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2000" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2001" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2002" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2003" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2004" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2005" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2006" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2007" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2008" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2009" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2010" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2011" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2012" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2013" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2014" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2015" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2016" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2017" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2018" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2019" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2020" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2021" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2022" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2023" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2024" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2025" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2026" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2027" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2028" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2029" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="2030" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+            <Field name="Estimates Start After" size="254" source="File: C:\Users\91917\Downloads\Dataset\IMF macroeconomic indicators.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="270" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Country Name" selected="True" />
+            <SelectField field="Country Code" selected="True" />
+            <SelectField field="Indicator Name" selected="True" />
+            <SelectField field="1975" selected="True" />
+            <SelectField field="1976" selected="True" />
+            <SelectField field="1977" selected="True" />
+            <SelectField field="1978" selected="True" />
+            <SelectField field="1979" selected="True" />
+            <SelectField field="1980" selected="True" />
+            <SelectField field="1981" selected="True" />
+            <SelectField field="1982" selected="True" />
+            <SelectField field="1983" selected="True" />
+            <SelectField field="1984" selected="True" />
+            <SelectField field="1985" selected="True" />
+            <SelectField field="1986" selected="True" />
+            <SelectField field="1987" selected="True" />
+            <SelectField field="1988" selected="True" />
+            <SelectField field="1989" selected="True" />
+            <SelectField field="1990" selected="True" />
+            <SelectField field="1991" selected="True" />
+            <SelectField field="1992" selected="True" />
+            <SelectField field="1993" selected="True" />
+            <SelectField field="1994" selected="True" />
+            <SelectField field="1995" selected="True" />
+            <SelectField field="1996" selected="True" />
+            <SelectField field="1997" selected="True" />
+            <SelectField field="1998" selected="True" />
+            <SelectField field="1999" selected="True" />
+            <SelectField field="2000" selected="True" />
+            <SelectField field="2001" selected="True" />
+            <SelectField field="2002" selected="True" />
+            <SelectField field="2003" selected="True" />
+            <SelectField field="2004" selected="True" />
+            <SelectField field="2005" selected="True" />
+            <SelectField field="2006" selected="True" />
+            <SelectField field="2007" selected="True" />
+            <SelectField field="2008" selected="True" />
+            <SelectField field="2009" selected="True" />
+            <SelectField field="2010" selected="True" />
+            <SelectField field="2011" selected="True" />
+            <SelectField field="2012" selected="True" />
+            <SelectField field="2013" selected="True" />
+            <SelectField field="2014" selected="True" />
+            <SelectField field="2015" selected="True" />
+            <SelectField field="2016" selected="True" />
+            <SelectField field="2017" selected="True" />
+            <SelectField field="2018" selected="True" />
+            <SelectField field="2019" selected="True" />
+            <SelectField field="2020" selected="True" />
+            <SelectField field="2021" selected="True" />
+            <SelectField field="2022" selected="True" />
+            <SelectField field="2023" selected="True" />
+            <SelectField field="2024" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="390" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Country Name" />
+            <Field field="Country Code" />
+            <Field field="Indicator Name" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Country Name" selected="False" />
+            <Field field="Country Code" selected="False" />
+            <Field field="Indicator Name" selected="False" />
+            <Field field="1975" selected="True" />
+            <Field field="1976" selected="True" />
+            <Field field="1977" selected="True" />
+            <Field field="1978" selected="True" />
+            <Field field="1979" selected="True" />
+            <Field field="1980" selected="True" />
+            <Field field="1981" selected="True" />
+            <Field field="1982" selected="True" />
+            <Field field="1983" selected="True" />
+            <Field field="1984" selected="True" />
+            <Field field="1985" selected="True" />
+            <Field field="1986" selected="True" />
+            <Field field="1987" selected="True" />
+            <Field field="1988" selected="True" />
+            <Field field="1989" selected="True" />
+            <Field field="1990" selected="True" />
+            <Field field="1991" selected="True" />
+            <Field field="1992" selected="True" />
+            <Field field="1993" selected="True" />
+            <Field field="1994" selected="True" />
+            <Field field="1995" selected="True" />
+            <Field field="1996" selected="True" />
+            <Field field="1997" selected="True" />
+            <Field field="1998" selected="True" />
+            <Field field="1999" selected="True" />
+            <Field field="2000" selected="True" />
+            <Field field="2001" selected="True" />
+            <Field field="2002" selected="True" />
+            <Field field="2003" selected="True" />
+            <Field field="2004" selected="True" />
+            <Field field="2005" selected="True" />
+            <Field field="2006" selected="True" />
+            <Field field="2007" selected="True" />
+            <Field field="2008" selected="True" />
+            <Field field="2009" selected="True" />
+            <Field field="2010" selected="True" />
+            <Field field="2011" selected="True" />
+            <Field field="2012" selected="True" />
+            <Field field="2013" selected="True" />
+            <Field field="2014" selected="True" />
+            <Field field="2015" selected="True" />
+            <Field field="2016" selected="True" />
+            <Field field="2017" selected="True" />
+            <Field field="2018" selected="True" />
+            <Field field="2019" selected="True" />
+            <Field field="2020" selected="True" />
+            <Field field="2021" selected="True" />
+            <Field field="2022" selected="True" />
+            <Field field="2023" selected="True" />
+            <Field field="2024" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="510" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToNumber([Name])&#xA;&#xA;" field="Year" size="1073741823" type="V_WString" enabled="true" />
+            <FormulaField expression="Round(ToNumber([Value]) / 1000000000,3)" field="GDP_USD_Bn" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Year = ToNumber([Name])
+
+
+GDP_USD_Bn = Round(ToNumber([Value]) / 1000000000,3)
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="630" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\91917\AppData\Local\Temp\Alteryx\Engine_17736_c47442458ce548cc9a76083697708147_\Engine_17736_bbf5e200ee0c40dda983e79100424bba~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="198" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression><![CDATA[[Subject Descriptor] IN (
+  "Inflation, average consumer prices",
+  "General government gross debt",
+  "Unemployment rate",
+  "Population"
+)
+]]></Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[Subject Descriptor] IN (
+  "Inflation, average consumer prices",
+  "General gov...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="330" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="WEO Country Code" selected="False" />
+            <SelectField field="ISO" selected="False" />
+            <SelectField field="WEO Subject Code" selected="False" />
+            <SelectField field="Subject Notes" selected="False" />
+            <SelectField field="Units" selected="False" />
+            <SelectField field="Scale" selected="False" />
+            <SelectField field="Country/Series-specific Notes" selected="False" />
+            <SelectField field="2026" selected="False" />
+            <SelectField field="2027" selected="False" />
+            <SelectField field="2028" selected="False" />
+            <SelectField field="2029" selected="False" />
+            <SelectField field="2030" selected="False" />
+            <SelectField field="Estimates Start After" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Transpose.Transpose">
+        <Position x="450" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ErrorWarn>Warn</ErrorWarn>
+          <KeyFields>
+            <Field field="Country" />
+            <Field field="Subject Descriptor" />
+          </KeyFields>
+          <DataFields>
+            <Field field="Country" selected="False" />
+            <Field field="Subject Descriptor" selected="False" />
+            <Field field="1980" selected="True" />
+            <Field field="1981" selected="True" />
+            <Field field="1982" selected="True" />
+            <Field field="1983" selected="True" />
+            <Field field="1984" selected="True" />
+            <Field field="1985" selected="True" />
+            <Field field="1986" selected="True" />
+            <Field field="1987" selected="True" />
+            <Field field="1988" selected="True" />
+            <Field field="1989" selected="True" />
+            <Field field="1990" selected="True" />
+            <Field field="1991" selected="True" />
+            <Field field="1992" selected="True" />
+            <Field field="1993" selected="True" />
+            <Field field="1994" selected="True" />
+            <Field field="1995" selected="True" />
+            <Field field="1996" selected="True" />
+            <Field field="1997" selected="True" />
+            <Field field="1998" selected="True" />
+            <Field field="1999" selected="True" />
+            <Field field="2000" selected="True" />
+            <Field field="2001" selected="True" />
+            <Field field="2002" selected="True" />
+            <Field field="2003" selected="True" />
+            <Field field="2004" selected="True" />
+            <Field field="2005" selected="True" />
+            <Field field="2006" selected="True" />
+            <Field field="2007" selected="True" />
+            <Field field="2008" selected="True" />
+            <Field field="2009" selected="True" />
+            <Field field="2010" selected="True" />
+            <Field field="2011" selected="True" />
+            <Field field="2012" selected="True" />
+            <Field field="2013" selected="True" />
+            <Field field="2014" selected="True" />
+            <Field field="2015" selected="True" />
+            <Field field="2016" selected="True" />
+            <Field field="2017" selected="True" />
+            <Field field="2018" selected="True" />
+            <Field field="2019" selected="True" />
+            <Field field="2020" selected="True" />
+            <Field field="2021" selected="True" />
+            <Field field="2022" selected="True" />
+            <Field field="2023" selected="True" />
+            <Field field="2024" selected="True" />
+            <Field field="2025" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </DataFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTranspose" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="570" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="ToNumber([Name])&#xA;" field="Year" size="1073741823" type="V_WString" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[Year = ToNumber([Name])
+
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.CrossTab.CrossTab">
+        <Position x="678" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <GroupFields>
+            <Field field="Country" />
+            <Field field="Year" />
+          </GroupFields>
+          <HeaderField field="Subject Descriptor" />
+          <DataField field="Value" />
+          <Methods>
+            <Method method="First" />
+            <Separator>,</Separator>
+            <FieldSize value="2048" />
+          </Methods>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Country" size="254" source="CrossTab:Group:First:" type="V_String" />
+            <Field name="Year" size="1073741823" source="CrossTab:Group:First:" type="V_WString" />
+            <Field name="General_government_gross_debt" size="254" source="CrossTab:Header:Subject Descriptor:General government gross debt:First:" type="V_String" />
+            <Field name="Inflation__average_consumer_prices" size="254" source="CrossTab:Header:Subject Descriptor:Inflation, average consumer prices:First:" type="V_String" />
+            <Field name="Population" size="254" source="CrossTab:Header:Subject Descriptor:Population:First:" type="V_String" />
+            <Field name="Unemployment_rate" size="254" source="CrossTab:Header:Subject Descriptor:Unemployment rate:First:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxCrossTab" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="774" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\91917\AppData\Local\Temp\Alteryx\Engine_17736_c47442458ce548cc9a76083697708147_\Engine_17736_a9ada91df3704cee8af7f8cb56c60344~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="774" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF IsNull([General_government_gross_debt]) OR Trim(LowerCase([General_government_gross_debt])) = &quot;n/a&quot; THEN&#xA;    Null()&#xA;ELSE&#xA;    ToNumber([General_government_gross_debt])&#xA;ENDIF&#xA;" field="General_government_gross_debt" size="254" type="V_String" enabled="true" />
+            <FormulaField expression="IF IsNull([Inflation__average_consumer_prices]) OR Trim(LowerCase([Inflation__average_consumer_prices])) = &quot;n/a&quot; THEN&#xA;    Null()&#xA;ELSE&#xA;    ToNumber([Inflation__average_consumer_prices])&#xA;ENDIF" field="Inflation__average_consumer_prices" size="254" type="V_String" enabled="true" />
+            <FormulaField expression="IF IsNull([Unemployment_rate]) OR Trim(LowerCase([Unemployment_rate])) = &quot;n/a&quot; THEN&#xA;    Null()&#xA;ELSE&#xA;    ToNumber([Unemployment_rate])&#xA;ENDIF" field="Population" size="254" type="V_String" enabled="true" />
+            <FormulaField expression="IF IsNull([Population]) OR Trim(LowerCase([Population])) = &quot;n/a&quot; THEN&#xA;    Null()&#xA;ELSE&#xA;    ToNumber([Population])&#xA;ENDIF" field="Unemployment_rate" size="254" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>General_government_gross_debt = IF IsNull([General_government_gross_debt]) OR Tr...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="882" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\91917\AppData\Local\Temp\Alteryx\Engine_17736_c47442458ce548cc9a76083697708147_\Engine_17736_dd1fcf566bf74b7f8e4bb80a23858481~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="894" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Year" selected="True" type="Int32" size="4" />
+            <SelectField field="General_government_gross_debt" selected="True" rename="Debt_%" type="Double" size="8" />
+            <SelectField field="Inflation__average_consumer_prices" selected="True" rename="Inflation_%" type="Double" size="8" />
+            <SelectField field="Population" selected="True" type="Double" size="8" />
+            <SelectField field="Unemployment_rate" selected="True" rename="Unemployment_%" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="966" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\91917\AppData\Local\Temp\Alteryx\Engine_17736_c47442458ce548cc9a76083697708147_\Engine_17736_17790be0b24b438387d9a766534472c3~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="630" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Country Name" selected="True" rename="Country" />
+            <SelectField field="Name" selected="False" />
+            <SelectField field="Value" selected="False" />
+            <SelectField field="Year" selected="True" type="Int32" size="4" />
+            <SelectField field="GDP_USD_Bn" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="750" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\91917\AppData\Local\Temp\Alteryx\Engine_17736_c47442458ce548cc9a76083697708147_\Engine_17736_86710552ba16480b8475337cf06379f6~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="750" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\91917\Downloads\GDP Dataset.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>GDP Dataset.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="33">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="966" y="426" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="19">C:\Users\91917\Downloads\IMF Dataset.yxdb</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <WriteCompatibleVersion>False</WriteCompatibleVersion>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+            <SuppressBlankFile>False</SuppressBlankFile>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>IMF Dataset.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="True" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="Output" />
+      <Destination ToolID="33" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>STEP_Hackthon_flow_1</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="dabfc4aa-24ea-4f82-8e71-2aa89a04f7ed" />
+      <Telemetry>
+        <PreviousWorkflowId value="9e628677-18ee-4a86-8b1c-973a6212970a" />
+        <OriginWorkflowId value="9e628677-18ee-4a86-8b1c-973a6212970a" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
